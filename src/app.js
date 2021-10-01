@@ -1,10 +1,10 @@
 window.onload = function() {
   document.querySelector("#Btn").addEventListener("click", () => {
-    document.querySelector("#the-excuse").innerHTML = GeneratorExcuse();
+    document.querySelector("#the-excuse").innerHTML = misExcusas();
   });
 };
 
-let GeneratorExcuse = () => {
+let misExcusas = () => {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
   let what = ["my homework", "the keys", "the car"];
